@@ -8,6 +8,8 @@
  */
 
 // Your code :
+const circular = Object.create(null);
+circular.circular = circular;
 
 //* Begin of tests
 const assert = require('assert')
